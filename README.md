@@ -3,7 +3,7 @@ SAF( Shahid Afridi Foundation)  is an educational foundation dedicated to transf
 
 
 ## Overview
-SAF (Serve A Future) is a responsive website for an educational foundation dedicated to providing quality education across Pakistan. The platform showcases the foundation's initiatives, impact metrics, and donation opportunities while maintaining a professional and user-friendly interface.
+SAF is a responsive website for an educational foundation dedicated to providing quality education across Pakistan. The platform showcases the foundation's initiatives, impact metrics, and donation opportunities while maintaining a professional and user-friendly interface.
 
 ## Features
 - Responsive design that works across all devices
