@@ -21,29 +21,10 @@ SAF (Serve A Future) is a responsive website for an educational foundation dedic
 - Basic understanding of HTML, CSS, and JavaScript
 
 ### Local Development Setup
-1. **Clone the Repository**
-   ```bash
-   git clone [repository-url]
-   cd SAF
-   ```
+1. cd SAF
+2. npm install
+3. npm start
 
-2. **File Structure Setup**
-   - Ensure all files are in their respective directories as shown in the Project Structure
-   - Verify all image files are properly placed in the `images` folder
-
-3. **Running the Project**
-   - Open `education.html` or `about.html` in your web browser
-   - For development, you can use a local server:
-     - Using Python:
-       ```bash
-       python -m http.server 8000
-       ```
-     - Using VS Code:
-       Install "Live Server" extension and click "Go Live"
-     - Using Node.js:
-       ```bash
-       npx http-server
-       ```
 
 4. **Access the Website**
    - If using a local server, visit:
