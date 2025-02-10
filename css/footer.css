@@ -1,0 +1,112 @@
+footer {
+    background-color: #1E2336;
+    color: white;
+    padding: 50px 20px;
+    max-height: 800px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.footer-left {
+    flex: 2;
+}
+
+.footer-right {
+    flex: 1;
+}
+
+h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.bank-details {
+    margin-top: 35px;
+}
+
+.business-details {
+    margin-top: 35px;
+}
+
+.social-section {
+    margin-top: 35px;
+}
+
+p {
+    color: #B0B0B0;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+/* Add specific styling for About Us paragraphs */
+.footer-left > p {
+    margin-bottom: 5px;  /* Reduced space between these specific paragraphs */
+}
+
+/* Keep original spacing for other sections */
+.bank-details p,
+.business-details p,
+.contact-section p {
+    margin-bottom: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.social-icons img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) invert(0.7);
+    transition: filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.contact-section p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(0.7);  /* Makes icon light gray to match text */
+}
+
+.contact-section a, 
+.contact-section span {
+    color: #B0B0B0;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-left, .footer-right {
+        flex: 1;
+    }
+} 
